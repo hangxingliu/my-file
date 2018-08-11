@@ -1,0 +1,30 @@
+{
+  "name": "@hangxingliu/my-file",
+  "version": "1.0.0",
+  "description": "Create files from pre-defined library quickly",
+  "main": "index.js",
+  "bin": {
+    "my-file": "./bin"
+  },
+  "scripts": {
+    "test": "./test/index.sh",
+    "start": "node ./bin",
+	"fetch-node-d-ts": "bash ./libs/fetch-node-types.sh",
+	"update-assets": "bash ./libs/update-assets-from-network.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hangxingliu/my-file.git"
+  },
+  "keywords": [
+    "hangxingliu"
+  ],
+  "author": "Liu Yue",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hangxingliu/my-file/issues"
+  },
+  "homepage": "https://github.com/hangxingliu/my-file#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
