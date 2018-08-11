@@ -24,6 +24,12 @@ const Manifest = {
 			target: '.travis.yml',
 			desc: 'Basic travis-ci config file for Node.js'
 		},
+		{
+			name: 'node-gitignore',
+			file: 'node.gitignore',
+			target: '.gitignore',
+			desc: 'Git ignore list for Node.js'
+		},
 	]
 };
 module.exports = Manifest;

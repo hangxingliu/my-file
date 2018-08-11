@@ -1,10 +1,5 @@
-# archived files
-*.tar
-*.gz
-*.tgz
-
-# typing files
-node.d.ts
+# This git ignore is modified from:
+#   https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore
 
 # Logs
 logs
