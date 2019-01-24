@@ -7,6 +7,12 @@
 const Manifest = {
 	files: [
 		{
+			name: 'readme',
+			file: 'README.md',
+			target: 'README.md',
+			desc: 'README template'
+		},
+		{
 			name: 'editorconfig',
 			file: 'editorconfig',
 			target: '.editorconfig',
